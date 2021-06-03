@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
+
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
@@ -3997,3 +3998,32 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+.selfPic{
+	width: 25rem;
+
+}
+.major{
+	display: flex;
+}
+
+.aboutMe{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10rem;
+}
+
+.projectTitle{
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+.technologies{
+	font-size:small;
+}
+
+.projectLink{
+	color: #00f0ff;
+}
