@@ -4027,3 +4027,9 @@ input, select, textarea {
 .projectLink{
 	color: #00f0ff;
 }
+
+.downloadLink{
+	margin-top: 2rem;
+	border-bottom: none;
+	color: rgb(45, 45, 201)
+}
