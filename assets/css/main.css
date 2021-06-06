@@ -2596,11 +2596,23 @@ input, select, textarea {
 			}
 
 			.features li:nth-child(9) {
-				background-color: rgba(0, 0, 0, 0.315);
+				background-color: rgba(0, 0, 0, 0.1);
 			}
 
 			.features li:nth-child(10) {
+				background-color: rgba(0, 0, 0, 0.2);
+			}
+			.features li:nth-child(11) {
+				background-color: rgba(0, 0, 0, 0.4);
+			}
+			.features li:nth-child(12) {
 				background-color: rgba(0, 0, 0, 0.35);
+			}
+			.features li:nth-child(13) {
+				background-color: rgba(0, 0, 0, 0.35);
+			}
+			.features li:nth-child(14) {
+				background-color: rgba(0, 0, 0, 0.15);
 			}
 
 			.features li:before {
@@ -4005,6 +4017,7 @@ input, select, textarea {
 }
 .major{
 	display: flex;
+	justify-content: center;
 }
 
 .aboutMe{
@@ -4032,4 +4045,19 @@ input, select, textarea {
 	margin-top: 2rem;
 	border-bottom: none;
 	color: rgb(45, 45, 201)
+}
+
+.techIcon{
+	height: 10rem;
+	width: 10rem;
+}
+
+.techIconReact{
+	height: 10rem;
+	width: 12rem;
+}
+
+.techIconSQL{
+	height:10rem;
+	width: 20rem;
 }
