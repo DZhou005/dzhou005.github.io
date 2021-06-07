@@ -3679,6 +3679,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			width: 16em;
 			z-index: 1;
+
 		}
 
 			#banner .more:after {
@@ -3686,7 +3687,7 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 4em;
+				bottom: 2.5em;
 				content: '';
 				display: block;
 				height: 1.5em;
@@ -4065,7 +4066,7 @@ input, select, textarea {
 
 .contactMe{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -4079,4 +4080,13 @@ input, select, textarea {
 
 .formSubmit{
 	margin-left: 8rem;
+}
+
+.github{
+	text-decoration: none;
+	border-bottom: none;
+}
+
+.more scrolly{
+	color:red;
 }
