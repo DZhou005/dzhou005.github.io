@@ -4043,9 +4043,9 @@ input, select, textarea {
 }
 
 .downloadLink{
-	border: 1px solid white;
-	padding: 1rem;
-	width: 15rem;
+	text-decoration: none;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
 }
 
 .techIcon{
